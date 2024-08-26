@@ -1,0 +1,71 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 115, 230, 0.8);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #0073e6;
+}
+
+.project, .team-member {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: rgba(0, 115, 230, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
